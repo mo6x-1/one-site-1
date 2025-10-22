@@ -1,0 +1,228 @@
+*{   
+    margin: 0;
+    padding: 0;
+   
+    
+}
+/* start header */
+header {
+    background-color: whitesmoke;
+    background-size: cover;
+    margin-left: 200px;
+    font-family: Arial;
+}
+.clr {
+    clear: both;
+}
+
+header h1 {
+    text-align: center;
+    padding: 0 0 0 500px;
+    color: black;
+    display: block;
+}  
+
+header .logo {
+    float: left;
+    width: 50px;
+    
+}
+header .logo img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+
+/* start banner */
+.banner{
+    background-image: url(imgs/2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.text{
+    position: absolute;
+   text-align: center;
+   top: 50%;
+   left: 550px;
+}
+.text h1{
+    color: white;
+    font-size: 100px;
+    
+}
+.text p{
+    margin: 20px 0; 
+    padding: 10px ;
+    color: white;
+}
+.btn{
+    position: absolute;
+     bottom:20%;
+   left: 46%;
+   color: white;
+   font-size: 18px;
+  background: transparent;
+  padding:8px 18px ;
+  border: 1px solid #89cff0;
+  border-top: none; 
+  border-right: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.btn:hover{
+background-color: #89cff0;
+color: black;
+border: 2px solid gray;
+  border-top: none; 
+  border-right: none;
+  border-radius: 5px;
+}
+/* start design */
+.text2{
+    text-align: center;
+}
+.text2 h2{
+    font-size: 50px;
+    color: rgb(102, 98, 98);
+}
+.text2 p{
+    color: gray;
+}
+/* start features */
+ .img{
+    float: left;
+    margin: 20px 50px; 
+    padding: 10px 15px;
+    text-align: center;
+}
+.clr{
+    clear: both;
+}
+/* start showcase */
+.showcase{
+    text-align: center;
+}
+.showcase h2{
+    font-size: 50px;
+    color: rgb(102, 98, 98);
+}
+.showcase p{
+    color: gray;
+}
+.img1 {
+    margin-left: 80px;
+    padding: 50px;
+}
+.imge1 img{
+    padding: 20px;
+    width: 30%;
+}
+
+
+.clr{
+    clear: both;
+}
+
+/* start contact */
+.contact{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    color: #fff;
+    text-align: center;
+}
+.contact .contant{
+    width: 100%;
+    height: 665px;
+    background: linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5));
+    z-index: 1;
+    top: 0;
+    position: absolute;
+}
+.contact .contant h2{
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+}
+.contact .contant p{
+    color: gray;
+    text-align: center;
+}
+.contact .contant .form{
+    text-align: center;
+    width: 60%;
+    padding: 20px;
+    color: white;
+    margin: auto;
+}
+.contact .contant .form .name{
+    background: transparent;
+    border: 1px solid gray;
+    width: 58%;
+    padding: 15px;
+    border-radius: 5px;
+    outline: none;
+    color: #fff;
+}
+.contact .contant .form .email{
+    background: transparent;
+    border: 1px solid gray;
+    width: 58%;
+    padding: 15px;
+    border-radius: 5px;
+    outline: none;
+    color: #fff;
+}
+.contact .contant .form .massege{
+    background: transparent;
+    border: 1px solid gray;
+    color: #fff;
+    height: 120px;
+    margin: 10px 1%;
+    width: 58%;
+    padding: 15px;
+    border-radius: 5px;
+    outline: none;
+}
+.contact img{
+ width: 100%;
+ z-index: 0;
+}
+.contact .contant .form .btn1,
+.contact .contant .form #btn{
+    position: relative;
+    left: -180px;
+    
+}
+.contact .contant .form .submit{
+  position: relative;
+  left: 150px;
+  padding: 10px 30px;
+  font-size: 17px;
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #89cff0;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.contact .contant .form .submit:hover{
+    background-color: #89cff0;
+}
+/* start copy right */
+footer{
+    background-color: #cfcece;
+    color: gray;
+    text-align: center;
+    padding: 10px 0;
+    top: -250px;
+    text-align: left;
+    padding: 20px 60px;
+}
+
+
+
+
+
+
